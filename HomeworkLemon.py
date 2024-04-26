@@ -1,10 +1,9 @@
-Python 3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> from turtle import *
+from turtle import *
 t = Pen()
 
+pencolor('#d7d350')
+
 for i in range(1,100,4):
-	pencolor('#d7d350')
 	pensize(5)
 	forward(i)
 	right(90)
